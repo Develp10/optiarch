@@ -12,8 +12,11 @@ A tool for fast optimization of Arch
 Made with love by Alexeev Bronislav
 ```
 
- > ![CAUTION]
+ > [!WARNING]
  > OptiArch support only Arch Linux
+
+> [!CAUTION]
+> This is not stable, optiarch in dev phase.
 
 Big thanks for Arch Linux devs!
 
@@ -30,6 +33,9 @@ Launch `optiarch.bash`:
 ./optiarch.bash --help
 ```
 
+> [!TIP]
+> After all, start clean.sh script for system cleaning
+
 ## Scripts
 
  + `optiarch.bash` - main script
@@ -41,10 +47,12 @@ Launch `optiarch.bash`:
 
  + [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos) installing
  + Automatic ucode installing (amd&intel)
+ + Automatic videodriver installing (amd&intel)
 
 ## ToDo
 
  + Support more CachyOS Kernels
+ + Support param GRUB_CMDLINE_LINUX_DEFAULT
 
 # Credits
 
