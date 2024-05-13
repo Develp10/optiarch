@@ -102,15 +102,15 @@ function gnome_performance {
 }
 
 function install_ucode {
-	printf "${BLUE}[+] Install CPU ucode${END}"
+	printf "${BLUE}[+] Install CPU ucode${END}\n"
 
 	cpu_info=$(cat /proc/cpuinfo | grep 'vendor_id' | uniq)
 
 	if [[ $cpu_info == *"GenuineIntel"* ]]; then
-		printf "${CYAN}[+] Install intel-ucode${END}"
+		printf "${CYAN}[+] Install intel-ucode${END}\n"
 		sudo pacman -S intel-ucode
 	else
-		printf "${CYAN}[+] Install amd-ucode${END}"
+		printf "${CYAN}[+] Install amd-ucode${END}\n"
 		sudo pacman -S amd-ucode
 	fi
 }
@@ -182,4 +182,4 @@ else
 	printf "${GRAY}\nOptiArch - optimization tool (C) Alexeev Bronislav 2024; licensed undo MIT${END}\n"
 fi
 
-printf "${GREEN}Please, star repository: https://github.com/AlexeevDeveloper/optiarch\n"
+printf "${GREEN}Please, star repository: https://github.com/AlexeevDeveloper/optiarch\n${END}"

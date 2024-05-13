@@ -16,9 +16,7 @@ Made with love by Alexeev Bronislav
  > OptiArch support only Arch Linux
 
 > [!CAUTION]
-> This is not stable, optiarch in dev phase.
-
-Big thanks for Arch Linux devs!
+> This is not stable, optiarch in dev phase. If you find a bug or problem, then create an issue.
 
 ## Install
 Step 0: install reqs and deps:
